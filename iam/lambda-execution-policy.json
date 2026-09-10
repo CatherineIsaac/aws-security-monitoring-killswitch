@@ -1,0 +1,11 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ApplyVictimQuarantineBoundary",
+      "Effect": "Allow",
+      "Action": "iam:PutUserPermissionsBoundary",
+      "Resource": "arn:aws:iam::<ACCOUNT_ID>:user/Victim"
+    }
+  ]
+}
